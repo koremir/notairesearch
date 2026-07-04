@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Not AI Research</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup-shell">
+      <section class="status-panel" aria-labelledby="extension-title">
+        <div class="brand-row">
+          <div class="brand-mark" aria-hidden="true">W</div>
+          <div>
+            <h1 id="extension-title">Not AI Research</h1>
+            <p id="statusText" class="status-text">AI araması devre dışı</p>
+            <p id="helperText" class="helper-text">Google aramaları Web sonuçlarında açılır.</p>
+          </div>
+        </div>
+
+        <label class="switch-row" for="webModeToggle">
+          <span class="switch-label">AI araması</span>
+          <input id="webModeToggle" class="switch-input" type="checkbox" role="switch">
+          <span class="switch-track" aria-hidden="true">
+            <span class="switch-thumb"></span>
+          </span>
+        </label>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

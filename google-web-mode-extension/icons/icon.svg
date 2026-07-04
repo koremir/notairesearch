@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Not AI Research placeholder icon</title>
+  <rect width="128" height="128" rx="24" fill="#ffffff"/>
+  <path fill="#1a73e8" d="M64 24a39.8 39.8 0 0 1 27.6 11.1L79.8 46.9A22.6 22.6 0 0 0 64 40.8c-12.6 0-23.2 8.5-27 20H20.1C24.3 39.6 42.5 24 64 24Z"/>
+  <path fill="#34a853" d="M36.9 67.2c2.7 11.8 13.3 20.1 27.1 20.1 7.1 0 13.2-1.8 17.9-5.3v-9.9H64V56.4h34.4c.5 2.7.8 5.4.8 8.7 0 22.4-15 38.9-35.2 38.9-21.5 0-39.7-15.6-43.9-36.8h16.8Z"/>
+  <path fill="#fbbc04" d="M20.1 60.8h16.9a25.2 25.2 0 0 0 0 6.4H20.1a40.8 40.8 0 0 1 0-6.4Z"/>
+  <path fill="#ea4335" d="M20.1 60.8h16.9c1.3-4 3.6-7.7 6.8-10.8L31.7 38A39.8 39.8 0 0 0 20.1 60.8Z"/>
+</svg>

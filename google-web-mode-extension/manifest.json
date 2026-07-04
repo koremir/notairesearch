@@ -1,0 +1,70 @@
+{
+  "manifest_version": 3,
+  "name": "Not AI Research",
+  "version": "1.0.0",
+  "description": "Disables AI-style Google Search results by opening searches in Web Mode.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_title": "Not AI Research",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/search*",
+        "https://google.com/search*",
+        "https://www.google.com.tr/search*",
+        "https://google.com.tr/search*",
+        "https://www.google.co.uk/search*",
+        "https://google.co.uk/search*",
+        "https://www.google.ca/search*",
+        "https://google.ca/search*",
+        "https://www.google.com.au/search*",
+        "https://google.com.au/search*",
+        "https://www.google.de/search*",
+        "https://google.de/search*",
+        "https://www.google.fr/search*",
+        "https://google.fr/search*",
+        "https://www.google.es/search*",
+        "https://google.es/search*",
+        "https://www.google.it/search*",
+        "https://google.it/search*",
+        "https://www.google.nl/search*",
+        "https://google.nl/search*",
+        "https://www.google.be/search*",
+        "https://google.be/search*",
+        "https://www.google.ch/search*",
+        "https://google.ch/search*",
+        "https://www.google.at/search*",
+        "https://google.at/search*",
+        "https://www.google.se/search*",
+        "https://google.se/search*",
+        "https://www.google.no/search*",
+        "https://google.no/search*",
+        "https://www.google.dk/search*",
+        "https://google.dk/search*",
+        "https://www.google.fi/search*",
+        "https://google.fi/search*",
+        "https://www.google.pl/search*",
+        "https://google.pl/search*",
+        "https://www.google.com.br/search*",
+        "https://google.com.br/search*",
+        "https://www.google.com.mx/search*",
+        "https://google.com.mx/search*",
+        "https://www.google.co.in/search*",
+        "https://google.co.in/search*",
+        "https://www.google.co.jp/search*",
+        "https://google.co.jp/search*",
+        "https://www.google.co.kr/search*",
+        "https://google.co.kr/search*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
